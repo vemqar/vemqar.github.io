@@ -1,3 +1,5 @@
+**astral-uv / notes**
+
 Install:
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
