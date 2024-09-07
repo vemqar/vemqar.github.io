@@ -3,3 +3,5 @@ description: Humble Programming Notes
 theme: minima
 minima:
   skin: dark
+header_pages:
+  - about.md
