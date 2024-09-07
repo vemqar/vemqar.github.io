@@ -23,13 +23,12 @@
               {%- if my_page.title -%}
               <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
               {%- endif -%}
+              {%- if site.description -%}
+              <p>{{ site.description | escape }}</p>
+              {%- endif -%}
             {%- endfor -%}
           </div>
         </nav>
       {%- endif -%}
-      <br>
-      <div class="footer-col"></div>
-        <p>{{ site.description | escape }}</p>
-      </div>
     </div>
   </header>
