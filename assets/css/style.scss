@@ -2,11 +2,9 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
-  .site-nav {
-    .nav-text {
-      float: right;
-      margin-right: 20px;
-      font-size: 16px;
-      color: #fff;
-    }
-  }
+.nav-text {
+    float: right;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #fff;
+}
