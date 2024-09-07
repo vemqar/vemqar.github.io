@@ -16,6 +16,8 @@
               </svg>
             </span>
           </label>
+
+          <h5 class="right-align">This should be right aligned1</h5>
   
           <div class="trigger">
             {%- for path in page_paths -%}
@@ -26,14 +28,15 @@
             {%- endfor -%}
           </div>
           <p>{{ site.description | escape }}</p>
+          <h5 class="right-align">This should be right aligned2</h5>
         </nav>
-        
+        <h5 class="right-align">This should be right aligned3</h5>
       {%- endif -%}
       <div class="box div2">
         <p>{{ site.description | default: site.github.project_tagline }}</p>
       </div>
       <div>
-        <h5 class="right-align">This should be right aligned</h5>
+        <h5 class="right-align">This should be right aligned4</h5>
       </div>
     </div>
   </header>
