@@ -9,3 +9,5 @@ minima:
   skin: classic
   social_links:
     - { platform: github,  user_url: "https://github.com/vemqar" }
+rss_path : nil
+markdown: kramdown
