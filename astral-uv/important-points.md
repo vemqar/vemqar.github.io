@@ -5,8 +5,9 @@
 - When using uv, the virtual environment **does not need to be activated**. uv will find a virtual environment (named `.venv`) in the working directory or any parent directories.
 
 So very simply if you are trying to run an existing project with `uv`:
-1. `uv python install
+
+1. `uv python install`
 2. `uv sync` (creates `.venv`)
 3. `uv run ...`
 
-You do not have to run step 2 separately, can just go straight to step 3 since that will do the sync. 
+You do not have to run step 2 separately, can just go straight to step 3 since that will do the sync.
