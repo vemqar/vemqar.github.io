@@ -6,11 +6,9 @@ remote_theme: jekyll/minima
 plugins:
   - jekyll-remote-theme
 minima:
-  skin: classic
+  skin: dark
   social_links:
     - { platform: github,  user_url: "https://github.com/vemqar" }
-rss_path : nil
-xml_path: nil
 markdown: kramdown
 header_pages:
   - about.md
