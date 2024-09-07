@@ -1,7 +1,11 @@
 title: Notepad
+author:
+  name: moses
 description: Humble Programming Notes
-theme: minima
+remote_theme: jekyll/minima
 minima:
   skin: dark
+  social_links:
+    - { platform: github,  user_url: "https://github.com/vemqar" }
 header_pages:
   - about.md
